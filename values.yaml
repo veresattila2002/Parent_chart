@@ -7,6 +7,7 @@ global:
     istio: istio-system
     prometheus: prometheus-system
     kiali: kiali-system
+    istioPlatform: istio-platform
 
   replicaCount: 1
 
@@ -15,6 +16,8 @@ global:
     secondAppPort: 8081
 
   appName: app
+
+  platformName: istio-platform
 
   hosts:
     springBootApp: "app1.demo.hu"
@@ -42,6 +45,10 @@ global:
   source:
     targetRevision: HEAD
     path: dev
+    pathApp: app-of-apps/dev
+    pathFirstApp: spring-boot-app-k8s-resources
+    pathSecondApp: spring-boot-second-app-k8s-resources
+    pathIstioPlatform: istio-resources
   
   destination:
     hostFirstApp: spring-boot-app.spring-boot-app.svc.cluster.local
@@ -49,9 +56,7 @@ global:
 
 app-of-apps:
   source:
-    repoUrlApp: https://github.com/veresattila2002/argocd_app_of_apps.git
-    repoUrlFirstApp: https://github.com/veresattila2002/spring-boot-k8s.git
-    repoUrlSecondApp: https://github.com/veresattila2002/spring-boot-k8s-2.git
+    repoUrlApp: https://github.com/veresattila2002/k8s_resources_for_helm.git
 
 istio-resources:
 
