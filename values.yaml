@@ -32,7 +32,7 @@ global:
       prune: true
       selfHeal: true
     syncOptions:
-      - CreateNamespace=true
+      optionOne: CreateNamespace=true
 
   project: default
 
