@@ -23,7 +23,7 @@ global:
     springBootApp: "app1.demo.hu"
     springBootSecondApp: "app2.demo.hu"
 
-  gateways: istio-system/spring-boot-app-gateway
+  gateway: istio-system/spring-boot-app-gateway
 
   prefix:
     springBootApp: /message
