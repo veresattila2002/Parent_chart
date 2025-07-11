@@ -3,7 +3,24 @@ entries:
   Parent_Chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-11T12:15:27.3005236+02:00"
+    created: "2025-07-11T12:21:27.915780369+02:00"
+    dependencies:
+    - name: spring-boot-app
+      repository: https://veresattila2002.github.io/k8s_resources_for_helm/
+      version: 0.1.8
+    - name: spring-boot-second-app
+      repository: https://veresattila2002.github.io/k8s_resources_for_helm/
+      version: 0.1.8
+    description: A Helm chart for Kubernetes
+    digest: 19e166ec85a1fc9de7ab25f9d3d8762a952722ea000b9b11eee70a8c282cbcc7
+    name: Parent_Chart
+    type: application
+    urls:
+    - https://veresattila2002.github.io/Parent_chart/Parent_Chart-0.1.13.tgz
+    version: 0.1.13
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-07-11T12:21:27.909137827+02:00"
     dependencies:
     - name: spring-boot-app
       repository: https://veresattila2002.github.io/k8s_resources_for_helm/
@@ -17,7 +34,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-11T12:15:27.296175136+02:00"
+    created: "2025-07-11T12:21:27.904459248+02:00"
     dependencies:
     - name: spring-boot-app
       repository: https://veresattila2002.github.io/k8s_resources_for_helm/
@@ -31,7 +48,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-11T12:15:27.293581451+02:00"
+    created: "2025-07-11T12:21:27.90227625+02:00"
     dependencies:
     - name: app-of-apps
       repository: https://veresattila2002.github.io/k8s_resources_for_helm/
@@ -45,7 +62,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-11T12:15:27.303036574+02:00"
+    created: "2025-07-11T12:21:27.918382286+02:00"
     dependencies:
     - name: app-of-apps
       repository: https://veresattila2002.github.io/k8s_resources_for_helm/
@@ -68,7 +85,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-11T12:15:27.301810653+02:00"
+    created: "2025-07-11T12:21:27.917079273+02:00"
     dependencies:
     - name: app-of-apps
       repository: https://veresattila2002.github.io/k8s_resources_for_helm/
@@ -89,4 +106,4 @@ entries:
     urls:
     - https://veresattila2002.github.io/Parent_chart/Parent_Chart-0.1.8.tgz
     version: 0.1.8
-generated: "2025-07-11T12:15:27.291965862+02:00"
+generated: "2025-07-11T12:21:27.900760725+02:00"
