@@ -23,7 +23,7 @@ global:
     springBootApp: "app1.demo.hu"
     springBootSecondApp: "app2.demo.hu"
 
-  gateway: istio-system/spring-boot-app-gateway
+  gateways: istio-system/spring-boot-app-gateway
 
   prefix:
     springBootApp: /message
@@ -55,6 +55,7 @@ global:
     hostSecondApp: spring-boot-second-app.spring-boot-second-app.svc.cluster.local
     port:
       number: 80
+
 app-of-apps:
   source:
     repoUrlApp: https://github.com/veresattila2002/k8s_resources_for_helm.git
