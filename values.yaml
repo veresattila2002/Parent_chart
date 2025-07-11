@@ -45,7 +45,7 @@ global:
   source:
     targetRevision: HEAD
     path: dev
-    pathApp: app-of-apps/dev
+    pathApp: app-of-apps
     pathFirstApp: spring-boot-app-k8s-resources
     pathSecondApp: spring-boot-second-app-k8s-resources
     pathIstioPlatform: istio-resources
@@ -56,7 +56,7 @@ global:
     port:
       number: 80
 
-app-of-apps:
+platform:
   source:
     repoUrlApp: https://github.com/veresattila2002/k8s_resources_for_helm.git
 
