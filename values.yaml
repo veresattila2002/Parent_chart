@@ -37,6 +37,7 @@ global:
       optionOne: CreateNamespace=true
 
   project: default
+  
 
   destinationApplication:
     server: https://kubernetes.default.svc
@@ -52,7 +53,8 @@ global:
   destination:
     hostFirstApp: spring-boot-app.spring-boot-app.svc.cluster.local
     hostSecondApp: spring-boot-second-app.spring-boot-second-app.svc.cluster.local
-
+    port:
+      number: 80
 app-of-apps:
   source:
     repoUrlApp: https://github.com/veresattila2002/k8s_resources_for_helm.git
@@ -120,9 +122,7 @@ spring-boot-app:
   image:
     name: ghcr.io/veresattila2002/helloword
     tag: "3.0"
-  destination:
-    port:
-      number: 80
+
   service:
     servicePort:
       protocol: TCP
@@ -133,9 +133,7 @@ spring-boot-second-app:
   image:
     name: ghcr.io/veresattila2002/ujsecondapp
     tag: "2.0"
-  destination:
-    port:
-      number: 80
+
   service:
     servicePort:
       protocol: TCP
