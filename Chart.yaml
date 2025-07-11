@@ -6,12 +6,12 @@ version: 0.1.11
 appVersion: "1.16.0"
 
 dependencies:
-  - name: app-of-apps
-    version: 0.1.7
-    repository: https://veresattila2002.github.io/k8s_resources_for_helm/
-  #- name: spring-boot-app
+  #- name: app-of-apps
   #  version: 0.1.7
   #  repository: https://veresattila2002.github.io/k8s_resources_for_helm/
+  - name: spring-boot-app
+    version: 0.1.7
+    repository: https://veresattila2002.github.io/k8s_resources_for_helm/
   #- name: istio-resources
   #  version: 0.1.6
   #  repository: https://veresattila2002.github.io/k8s_resources_for_helm/
