@@ -1,7 +1,7 @@
 dependencies:
 - name: app-of-apps
   repository: https://veresattila2002.github.io/k8s_resources_for_helm/
-  version: 0.1.6
+  version: 0.1.7
 - name: spring-boot-app
   repository: https://veresattila2002.github.io/k8s_resources_for_helm/
   version: 0.1.5
@@ -11,5 +11,5 @@ dependencies:
 - name: spring-boot-second-app
   repository: https://veresattila2002.github.io/k8s_resources_for_helm/
   version: 0.1.5
-digest: sha256:d43726262203ae7e977c95f7333da084131e09bc14a72a91a4860ed687ecd4c3
-generated: "2025-07-10T17:07:24.962507647+02:00"
+digest: sha256:155caf190815a699fa30bb614e575ae7eb5cfa97b589469ddc347424018bf1f1
+generated: "2025-07-11T10:17:00.619410197+02:00"
