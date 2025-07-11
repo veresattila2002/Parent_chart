@@ -1,6 +1,6 @@
 dependencies:
-- name: app-of-apps
+- name: platform
   repository: https://veresattila2002.github.io/k8s_resources_for_helm/
-  version: 0.1.8
-digest: sha256:963d27f393f92bc0f42952ff8f9028c41a69d2fdd42690570f4b9c37fef7146f
-generated: "2025-07-11T13:33:10.096594837+02:00"
+  version: 0.1.0
+digest: sha256:5a1e01f2c37f923a76bf7416eb7bcb945189df9b6a6d5f85c854b2d6e7ea28d1
+generated: "2025-07-11T14:20:08.679448232+02:00"
