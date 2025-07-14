@@ -5,8 +5,5 @@ type: application
 version: 0.1.18
 appVersion: "1.16.0"
 
-dependencies:
-  - name: platform
-    version: 0.1.0
-    repository: https://veresattila2002.github.io/k8s_resources_for_helm/
+
   
