@@ -3,7 +3,7 @@ entries:
   Parent_Chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-14T11:21:06.588305716+02:00"
+    created: "2025-07-14T11:38:32.407180217+02:00"
     dependencies:
     - name: app-of-apps
       repository: https://veresattila2002.github.io/k8s_resources_for_helm/
@@ -12,7 +12,7 @@ entries:
       repository: https://veresattila2002.github.io/k8s_resources_for_helm/
       version: 0.1.4
     description: A Helm chart for Kubernetes
-    digest: 48e23fa680a68b9ebe464ff99e23d294921c5ce4b2fda82be5f15767d4a128d1
+    digest: d255eedb75634cfa72e5fe0fe2b76e2b93177f1877012f5a4a908c804360342c
     name: Parent_Chart
     type: application
     urls:
@@ -20,7 +20,7 @@ entries:
     version: 0.1.21
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-14T11:21:06.586077387+02:00"
+    created: "2025-07-14T11:38:32.403316109+02:00"
     dependencies:
     - name: app-of-apps
       repository: https://veresattila2002.github.io/k8s_resources_for_helm/
@@ -37,7 +37,7 @@ entries:
     version: 0.1.20
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-14T11:21:06.584285662+02:00"
+    created: "2025-07-14T11:38:32.401434451+02:00"
     dependencies:
     - name: app-of-apps
       repository: https://veresattila2002.github.io/k8s_resources_for_helm/
@@ -54,7 +54,7 @@ entries:
     version: 0.1.19
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-14T11:21:06.58022084+02:00"
+    created: "2025-07-14T11:38:32.398067479+02:00"
     description: A Helm chart for Kubernetes
     digest: 7059988d8ec2f8aca38ad97a30e8934bf7709e04f1f605048852c8d7d80d8528
     name: Parent_Chart
@@ -64,7 +64,7 @@ entries:
     version: 0.1.18
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-07-14T11:21:06.579496985+02:00"
+    created: "2025-07-14T11:38:32.397278384+02:00"
     dependencies:
     - name: app-of-apps
       repository: https://veresattila2002.github.io/k8s_resources_for_helm/
@@ -76,4 +76,4 @@ entries:
     urls:
     - https://veresattila2002.github.io/Parent_chart/Parent_Chart-0.1.17.tgz
     version: 0.1.17
-generated: "2025-07-14T11:21:06.577658392+02:00"
+generated: "2025-07-14T11:38:32.395683947+02:00"
